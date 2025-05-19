@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("pattern.png");
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}   
+.img1{
+height: 600px;
+width: 1528px;
+border-radius: 50px;
+}
+.test{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+
+form {
+    box-sizing: border-box;
+    padding: 15px;
+    border: 2px solid #fc0808;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.btn{
+    background-color: #f1553d;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
