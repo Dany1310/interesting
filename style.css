@@ -25,6 +25,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: auto;
+    background-color: black;
 }   
 .img1{
     width: 37px;
@@ -46,7 +47,7 @@ p {
 .img2{
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 150px;
     width: 500px;
     height: 600px;
     border: 2px solid red;
@@ -54,7 +55,7 @@ p {
 .img3{
     position: absolute;
     left: 0px;
-    top: 700px;
+    top: 1000px;
     width: 500px;
     height: 600px;
     border: 2px solid red;
@@ -62,8 +63,76 @@ p {
 .img4{
     position: absolute;
     right: 0px;
-    top: 700px;
+    top: 1000px;
     width: 500px;
     height: 600px;
     border: 2px solid red;
+}
+.img5{
+    position: absolute;
+    right: 0px;
+    top: 150px;
+    width: 500px;
+    height: 600px;
+    border: 2px solid red;
+}
+.text5{
+    position: absolute;
+    right: -50px;
+    top: 750px;
+    width: 500px;
+    height: 600px;
+    color: rgb(203, 40, 40);  
+}
+.text51{
+    position: absolute;
+    right: -50px;
+    top: 790px;
+    width: 500px;
+    height: 600px;
+}
+.text2{
+    position: absolute;
+    left: 50px;
+    top: 750px;
+    width: 500px;
+    height: 600px;
+    color: rgb(203, 40, 40);  
+}
+.text21{
+    position: absolute;
+    left: 50px;
+    top: 790px;
+    width: 500px;
+    height: 600px;
+}
+.text3{
+    position: absolute;
+    left: 50px;
+    top: 1600px;
+    width: 500px;
+    height: 600px;
+    color: rgb(203, 40, 40);  
+}
+.text31{
+    position: absolute;
+    left: 50px;
+    top: 1650px;
+    width: 500px;
+    height: 600px;
+}
+.text4{
+    position: absolute;
+    right: -50px;
+    top: 1600px;
+    width: 500px;
+    height: 600px;
+    color: rgb(203, 40, 40);  
+}
+.text41{
+    position: absolute;
+    right: -50px;
+    top: 1650px;
+    width: 500px;
+    height: 600px;
 }
